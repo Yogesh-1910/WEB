@@ -1,0 +1,17 @@
+flask
+flask-cors
+speech
+cv2
+opencv-python
+numpy
+scikit-learn
+mediapipe
+seaborn
+lime 
+shap
+pyttsx3
+mathplotlib
+google-cloud-translate 
+google-cloud-texttospeech
+time
+pickle

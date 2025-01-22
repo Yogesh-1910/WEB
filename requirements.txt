@@ -9,7 +9,7 @@ seaborn
 lime 
 shap
 pyttsx3
-mathplotlib
+matplotlib
 google-cloud-translate 
 google-cloud-texttospeech
 time

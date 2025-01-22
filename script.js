@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('start-camera').addEventListener('click', function() {
-        fetch('http://127.0.0.1:8000/start-camera', {
+        fetch('http://127.0.0.0:8000/start-camera', {
             method: 'POST'
         })
         .then(response => response.json())
@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     document.getElementById('stop-camera').addEventListener('click', function() {
-        fetch('http://127.0.0.1:8000/stop-camera', {
+        fetch('http://127.0.0.0:8000/stop-camera', {
             method: 'POST'
         })
         .then(response => response.json())
@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     document.getElementById('start-detection').addEventListener('click', function() {
-        fetch('http://127.0.0.1:8000/start-detection', {
+        fetch('http://127.0.0.0:8000/start-detection', {
             method: 'POST'
         })
         .then(response => response.json())
@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     document.getElementById('stop-detection').addEventListener('click', function() {
-        fetch('http://127.0.0.1:8000/stop-detection', {
+        fetch('http://127.0.0.0:8000/stop-detection', {
             method: 'POST'
         })
         .then(response => response.json())
@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     document.getElementById('save-text').addEventListener('click', function() {
-        fetch('http://127.0.0.1:8000/save-text', {
+        fetch('http://127.0.0.0:8000/save-text', {
             method: 'POST'
         })
         .then(response => response.json())
@@ -67,7 +67,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     document.getElementById('convert-to-audio').addEventListener('click', function() {
-        fetch('http://127.0.0.1:8000/convert-to-audio', {
+        fetch('http://127.0.0.0:8000/convert-to-audio', {
             method: 'POST'
         })
         .then(response => response.json())
@@ -83,7 +83,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     document.getElementById('clear-text').addEventListener('click', function() {
-        fetch('http://127.0.0.1:8000/clear-text', {
+        fetch('http://127.0.0.0:8000/clear-text', {
             method: 'POST'
         })
         .then(response => response.json())
@@ -98,7 +98,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Add event listener for spacebar key press
     document.addEventListener('keydown', function(event) {
         if (event.code === 'Space') {
-            fetch('http://127.0.0.1:8000/add-space', {
+            fetch('http://127.0.0.0:8000/add-space', {
                 method: 'POST'
             })
             .then(response => response.json())

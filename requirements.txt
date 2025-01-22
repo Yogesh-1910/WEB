@@ -12,4 +12,3 @@ pyttsx3
 matplotlib
 google-cloud-translate 
 google-cloud-texttospeech
-pickle

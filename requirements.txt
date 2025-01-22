@@ -1,7 +1,6 @@
 flask
 flask-cors
 speech
-cv2
 opencv-python
 numpy
 scikit-learn
